@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="style.css">
+            <script src="script.js"></script>
+        </head>
+        <body id="container_container">
+            <div class="container">
+                <!--Name-->
+                <div class="page-header">
+                    <h1>Stop Watch</h1>
+                </div>
+                <!--function Buttons-->
+                <button type="button" class="btn btn-success" onclick="start()">Start</button>
+                <button type="button" class="btn btn-danger" onclick="stop()">Stop</button>
+                <button type="button" class="btn btn-warning" onclick="reset()">Reset</button>
+                <br>
+                <!--Time will be Displayed here-->
+                <label id="time">0</label>
+            </div>
+        </body>
+    </html>

@@ -1,0 +1,14 @@
+#container_container {
+    background-color: skyblue;
+    text-align: center;
+}
+h1 {
+    font-weight: bold;
+}
+button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#time {
+    font-size: 293px;
+}
